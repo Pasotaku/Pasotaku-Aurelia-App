@@ -1,0 +1,1248 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/package.json
+6 verbose install where, deps [ '/Users/johnlight/Documents/dev/Pasotaku-Aurelia-App',
+6 verbose install   [ 'aurelia-tools',
+6 verbose install     'browser-sync',
+6 verbose install     'conventional-changelog',
+6 verbose install     'del',
+6 verbose install     'gulp',
+6 verbose install     'gulp-babel',
+6 verbose install     'gulp-bump',
+6 verbose install     'gulp-changed',
+6 verbose install     'gulp-jshint',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-protractor',
+6 verbose install     'gulp-sourcemaps',
+6 verbose install     'gulp-yuidoc',
+6 verbose install     'jasmine-core',
+6 verbose install     'jshint-stylish',
+6 verbose install     'karma',
+6 verbose install     'karma-babel-preprocessor',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-coverage',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-jspm',
+6 verbose install     'object.assign',
+6 verbose install     'require-dir',
+6 verbose install     'run-sequence',
+6 verbose install     'vinyl-paths',
+6 verbose install     'yargs' ] ]
+7 verbose install where, peers [ '/Users/johnlight/Documents/dev/Pasotaku-Aurelia-App', [] ]
+8 verbose installManyTop reading for lifecycle /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/package.json
+9 info preinstall aurelia-skeleton-navigation@0.16.2
+10 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/aurelia-tools/package.json
+11 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/browser-sync/package.json
+12 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/conventional-changelog/package.json
+13 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/del/package.json
+14 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp/package.json
+15 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-babel/package.json
+16 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-changed/package.json
+17 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-jshint/package.json
+18 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-plumber/package.json
+19 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-protractor/package.json
+20 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-sourcemaps/package.json
+21 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/jasmine-core/package.json
+22 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/jshint-stylish/package.json
+23 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma/package.json
+24 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-babel-preprocessor/package.json
+25 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-chrome-launcher/package.json
+26 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-coverage/package.json
+27 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-jasmine/package.json
+28 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-jspm/package.json
+29 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/object.assign/package.json
+30 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/require-dir/package.json
+31 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/run-sequence/package.json
+32 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/vinyl-paths/package.json
+33 verbose installManyTop reading scoped package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/yargs/package.json
+34 info package.json browser-sync@1.9.2 No license field.
+35 info package.json conventional-changelog@0.0.11 license should be a valid SPDX license expression
+36 info package.json gulp-plumber@0.6.6 No license field.
+37 info package.json gulp-protractor@0.0.12 No license field.
+38 info package.json require-dir@0.1.0 No license field.
+39 info package.json yargs@2.3.0 license should be a valid SPDX license expression
+40 verbose readDependencies loading dependencies from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/package.json
+41 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/aurelia-tools/package.json
+42 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/browser-sync/package.json
+43 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/conventional-changelog/package.json
+44 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/del/package.json
+45 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp/package.json
+46 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-babel/package.json
+47 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-changed/package.json
+48 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-jshint/package.json
+49 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-plumber/package.json
+50 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-protractor/package.json
+51 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-sourcemaps/package.json
+52 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/jasmine-core/package.json
+53 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/jshint-stylish/package.json
+54 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma/package.json
+55 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-babel-preprocessor/package.json
+56 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-chrome-launcher/package.json
+57 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-coverage/package.json
+58 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-jasmine/package.json
+59 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/karma-jspm/package.json
+60 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/object.assign/package.json
+61 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/require-dir/package.json
+62 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/run-sequence/package.json
+63 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/vinyl-paths/package.json
+64 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/yargs/package.json
+65 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/.bin/browser-sync/package.json
+66 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/.bin/gulp/package.json
+67 verbose targetResolver reading package data from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/.bin/karma/package.json
+68 verbose already installed skipping karma@^0.12.28 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+69 verbose already installed skipping karma-babel-preprocessor@^5.2.1 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+70 verbose already installed skipping karma-chrome-launcher@^0.1.7 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+71 verbose already installed skipping karma-coverage@^0.3.1 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+72 verbose already installed skipping karma-jasmine@^0.3.5 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+73 verbose already installed skipping karma-jspm@^1.1.5 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+74 verbose already installed skipping object.assign@^1.0.3 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+75 verbose already installed skipping require-dir@^0.1.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+76 verbose already installed skipping run-sequence@^1.0.2 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+77 verbose already installed skipping vinyl-paths@^1.0.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+78 verbose already installed skipping yargs@^2.1.1 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+79 verbose already installed skipping aurelia-tools@^0.1.3 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+80 verbose already installed skipping browser-sync@^1.8.1 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+81 verbose already installed skipping conventional-changelog@0.0.11 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+82 verbose already installed skipping del@^1.1.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+83 verbose already installed skipping gulp@^3.8.10 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+84 verbose already installed skipping gulp-babel@^5.1.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+85 silly cache add args [ 'gulp-bump@^0.3.1', null ]
+86 verbose cache add spec gulp-bump@^0.3.1
+87 silly cache add parsed spec { raw: 'gulp-bump@^0.3.1',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'gulp-bump',
+87 silly cache add   rawSpec: '^0.3.1',
+87 silly cache add   spec: '>=0.3.1 <0.4.0',
+87 silly cache add   type: 'range' }
+88 silly addNamed gulp-bump@>=0.3.1 <0.4.0
+89 verbose addNamed ">=0.3.1 <0.4.0" is a valid semver range for gulp-bump
+90 silly addNameRange { name: 'gulp-bump', range: '>=0.3.1 <0.4.0', hasData: false }
+91 silly mapToRegistry name gulp-bump
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/gulp-bump
+95 verbose addNameRange registry:https://registry.npmjs.org/gulp-bump not in flight; fetching
+96 verbose already installed skipping gulp-changed@^1.1.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+97 verbose already installed skipping gulp-jshint@^1.9.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+98 verbose already installed skipping gulp-plumber@^0.6.6 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+99 verbose already installed skipping gulp-protractor@^0.0.12 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+100 verbose already installed skipping gulp-sourcemaps@^1.3.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+101 silly cache add args [ 'gulp-yuidoc@^0.1.2', null ]
+102 verbose cache add spec gulp-yuidoc@^0.1.2
+103 silly cache add parsed spec { raw: 'gulp-yuidoc@^0.1.2',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'gulp-yuidoc',
+103 silly cache add   rawSpec: '^0.1.2',
+103 silly cache add   spec: '>=0.1.2 <0.2.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed gulp-yuidoc@>=0.1.2 <0.2.0
+105 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for gulp-yuidoc
+106 silly addNameRange { name: 'gulp-yuidoc', range: '>=0.1.2 <0.2.0', hasData: false }
+107 silly mapToRegistry name gulp-yuidoc
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/gulp-yuidoc
+111 verbose addNameRange registry:https://registry.npmjs.org/gulp-yuidoc not in flight; fetching
+112 verbose already installed skipping jasmine-core@^2.1.3 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+113 verbose already installed skipping jshint-stylish@^1.0.0 /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+114 verbose request uri https://registry.npmjs.org/gulp-bump
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 17:02:33
+117 verbose request id 9a983af61617313f
+118 verbose etag "D5RD3EVOA3T59IXAHFBC1M7M"
+119 http request GET https://registry.npmjs.org/gulp-bump
+120 verbose request uri https://registry.npmjs.org/gulp-yuidoc
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 17:02:33
+123 verbose etag "8MXIN6YR4FQZIF282KVYP97J5"
+124 http request GET https://registry.npmjs.org/gulp-yuidoc
+125 http 304 https://registry.npmjs.org/gulp-yuidoc
+126 silly get cb [ 304,
+126 silly get   { date: 'Sat, 08 Aug 2015 22:02:33 GMT',
+126 silly get     via: '1.1 varnish',
+126 silly get     'cache-control': 'max-age=60',
+126 silly get     etag: '"8MXIN6YR4FQZIF282KVYP97J5"',
+126 silly get     age: '0',
+126 silly get     connection: 'keep-alive',
+126 silly get     'x-served-by': 'cache-dfw1831-DFW',
+126 silly get     'x-cache': 'MISS',
+126 silly get     'x-cache-hits': '0',
+126 silly get     'x-timer': 'S1439071353.630384,VS0,VE52',
+126 silly get     vary: 'Accept' } ]
+127 verbose etag https://registry.npmjs.org/gulp-yuidoc from cache
+128 verbose get saving gulp-yuidoc to /Users/johnlight/.npm/registry.npmjs.org/gulp-yuidoc/.cache.json
+129 http 304 https://registry.npmjs.org/gulp-bump
+130 silly get cb [ 304,
+130 silly get   { date: 'Sat, 08 Aug 2015 22:02:33 GMT',
+130 silly get     via: '1.1 varnish',
+130 silly get     'cache-control': 'max-age=60',
+130 silly get     etag: '"D5RD3EVOA3T59IXAHFBC1M7M"',
+130 silly get     age: '0',
+130 silly get     connection: 'keep-alive',
+130 silly get     'x-served-by': 'cache-dfw1827-DFW',
+130 silly get     'x-cache': 'HIT',
+130 silly get     'x-cache-hits': '1',
+130 silly get     'x-timer': 'S1439071353.636449,VS0,VE272',
+130 silly get     vary: 'Accept' } ]
+131 verbose etag https://registry.npmjs.org/gulp-bump from cache
+132 verbose get saving gulp-bump to /Users/johnlight/.npm/registry.npmjs.org/gulp-bump/.cache.json
+133 silly addNameRange number 2 { name: 'gulp-yuidoc', range: '>=0.1.2 <0.2.0', hasData: true }
+134 silly addNameRange versions [ 'gulp-yuidoc', [ '0.0.1', '0.1.0', '0.1.1', '0.1.2' ] ]
+135 silly addNamed gulp-yuidoc@0.1.2
+136 verbose addNamed "0.1.2" is a plain semver version for gulp-yuidoc
+137 silly addNameRange number 2 { name: 'gulp-bump', range: '>=0.3.1 <0.4.0', hasData: true }
+138 silly addNameRange versions [ 'gulp-bump',
+138 silly addNameRange   [ '0.0.1',
+138 silly addNameRange     '0.0.2',
+138 silly addNameRange     '0.0.3',
+138 silly addNameRange     '0.0.4',
+138 silly addNameRange     '0.0.5',
+138 silly addNameRange     '0.0.6',
+138 silly addNameRange     '0.0.7',
+138 silly addNameRange     '0.0.8',
+138 silly addNameRange     '0.1.0',
+138 silly addNameRange     '0.1.1',
+138 silly addNameRange     '0.1.2',
+138 silly addNameRange     '0.1.3',
+138 silly addNameRange     '0.1.4',
+138 silly addNameRange     '0.1.5',
+138 silly addNameRange     '0.1.6',
+138 silly addNameRange     '0.1.7',
+138 silly addNameRange     '0.1.8',
+138 silly addNameRange     '0.1.9',
+138 silly addNameRange     '0.1.10',
+138 silly addNameRange     '0.1.11',
+138 silly addNameRange     '0.1.13',
+138 silly addNameRange     '0.2.0',
+138 silly addNameRange     '0.2.1',
+138 silly addNameRange     '0.2.2',
+138 silly addNameRange     '0.3.0',
+138 silly addNameRange     '0.3.1' ] ]
+139 silly addNamed gulp-bump@0.3.1
+140 verbose addNamed "0.3.1" is a plain semver version for gulp-bump
+141 silly cache afterAdd gulp-yuidoc@0.1.2
+142 verbose afterAdd /Users/johnlight/.npm/gulp-yuidoc/0.1.2/package/package.json not in flight; writing
+143 silly cache afterAdd gulp-bump@0.3.1
+144 verbose afterAdd /Users/johnlight/.npm/gulp-bump/0.3.1/package/package.json not in flight; writing
+145 verbose afterAdd /Users/johnlight/.npm/gulp-bump/0.3.1/package/package.json written
+146 verbose afterAdd /Users/johnlight/.npm/gulp-yuidoc/0.1.2/package/package.json written
+147 silly install resolved [ { name: 'gulp-bump',
+147 silly install resolved     description: 'Bump npm versions with Gulp (gulpjs.com)',
+147 silly install resolved     version: '0.3.1',
+147 silly install resolved     homepage: 'http://github.com/stevelacy/gulp-bump',
+147 silly install resolved     repository: { type: 'git', url: 'git://github.com/stevelacy/gulp-bump.git' },
+147 silly install resolved     author:
+147 silly install resolved      { name: 'Steve Lacy',
+147 silly install resolved        email: 'me@slacy.me',
+147 silly install resolved        url: 'http://slacy.me' },
+147 silly install resolved     main: './index.js',
+147 silly install resolved     dependencies:
+147 silly install resolved      { 'dot-object': '^0.6.0',
+147 silly install resolved        'gulp-util': '^3.0.4',
+147 silly install resolved        semver: '^4.3.1',
+147 silly install resolved        through2: '^0.5.1' },
+147 silly install resolved     devDependencies: { mocha: '*', should: '*' },
+147 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+147 silly install resolved     engines: { node: '>= 0.9.0' },
+147 silly install resolved     keywords:
+147 silly install resolved      [ 'gulp',
+147 silly install resolved        'bump',
+147 silly install resolved        'semver',
+147 silly install resolved        'gulpplugin',
+147 silly install resolved        'version',
+147 silly install resolved        'versioning',
+147 silly install resolved        'gulp-version',
+147 silly install resolved        'gulp-plugin' ],
+147 silly install resolved     license: 'MIT',
+147 silly install resolved     gitHead: 'dad1d960e9b1f6b480c909a23ba7d118c436ce6f',
+147 silly install resolved     bugs: { url: 'https://github.com/stevelacy/gulp-bump/issues' },
+147 silly install resolved     _id: 'gulp-bump@0.3.1',
+147 silly install resolved     _shasum: '8ac67f228915ab148779f16d3d375e5514a11c9a',
+147 silly install resolved     _from: 'gulp-bump@>=0.3.1 <0.4.0',
+147 silly install resolved     _npmVersion: '2.9.0',
+147 silly install resolved     _nodeVersion: '2.0.1',
+147 silly install resolved     _npmUser: { name: 'stevelacy', email: 'me@slacy.me' },
+147 silly install resolved     maintainers: [ [Object] ],
+147 silly install resolved     dist:
+147 silly install resolved      { shasum: '8ac67f228915ab148779f16d3d375e5514a11c9a',
+147 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-bump/-/gulp-bump-0.3.1.tgz' },
+147 silly install resolved     directories: {},
+147 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-bump/-/gulp-bump-0.3.1.tgz',
+147 silly install resolved     readme: 'ERROR: No README data found!' },
+147 silly install resolved   { name: 'gulp-yuidoc',
+147 silly install resolved     version: '0.1.2',
+147 silly install resolved     description: 'A yuidoc plugin for Gulp',
+147 silly install resolved     keywords: [ 'gulpplugin', 'yuidoc', 'documentation', 'javascript', 'gulp' ],
+147 silly install resolved     homepage: 'https://github.com/jsBoot/gulp-yuidoc',
+147 silly install resolved     bugs:
+147 silly install resolved      { url: 'https://github.com/jsBoot/gulp-yuidoc/issues',
+147 silly install resolved        email: 'dev@webitup.fr' },
+147 silly install resolved     license: 'MIT',
+147 silly install resolved     author:
+147 silly install resolved      { name: 'Mangled Deutz',
+147 silly install resolved        email: 'olivier@webitup.fr',
+147 silly install resolved        url: 'https://github.com/dmp42' },
+147 silly install resolved     contributors: [],
+147 silly install resolved     main: './index.js',
+147 silly install resolved     repository: { type: 'git', url: 'git://github.com/jsBoot/gulp-yuidoc.git' },
+147 silly install resolved     scripts:
+147 silly install resolved      { test: 'istanbul test _mocha --report html -- test/*.js --reporter spec',
+147 silly install resolved        coveralls: 'istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage' },
+147 silly install resolved     dependencies:
+147 silly install resolved      { through2: '0.4.1',
+147 silly install resolved        'gulp-util': '~2.2.0',
+147 silly install resolved        yuidocjs: '~0.3.47',
+147 silly install resolved        chalk: '~0.4.0',
+147 silly install resolved        'text-table': '~0.2.0',
+147 silly install resolved        'vinyl-fs': '~0.1.2' },
+147 silly install resolved     devDependencies:
+147 silly install resolved      { mocha: '1.17.1',
+147 silly install resolved        coveralls: '~2.7.0',
+147 silly install resolved        'mocha-lcov-reporter': '~0.0.1',
+147 silly install resolved        istanbul: '0.2.4',
+147 silly install resolved        'event-stream': '~3.1.0',
+147 silly install resolved        should: '~3.1.2',
+147 silly install resolved        eslint: '~0.3.0',
+147 silly install resolved        jshint: '~2.4.3',
+147 silly install resolved        gulp: '~3.5.1',
+147 silly install resolved        'gulp-template': '~0.1.1',
+147 silly install resolved        'gulp-jshint': '~1.3.4',
+147 silly install resolved        'gulp-eslint': '~0.1.2',
+147 silly install resolved        'jshint-stylish': '~0.1.5',
+147 silly install resolved        'eslint-stylish': '~0.2.0' },
+147 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.0.0' },
+147 silly install resolved     private: false,
+147 silly install resolved     _id: 'gulp-yuidoc@0.1.2',
+147 silly install resolved     dist:
+147 silly install resolved      { shasum: 'ed10b156322242acbe8a0d47976a4bb7968024ef',
+147 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-yuidoc/-/gulp-yuidoc-0.1.2.tgz' },
+147 silly install resolved     _from: 'gulp-yuidoc@>=0.1.2 <0.2.0',
+147 silly install resolved     _npmVersion: '1.4.3',
+147 silly install resolved     _npmUser: { name: 'dmp', email: 'olivier@webitup.fr' },
+147 silly install resolved     maintainers: [ [Object] ],
+147 silly install resolved     directories: {},
+147 silly install resolved     _shasum: 'ed10b156322242acbe8a0d47976a4bb7968024ef',
+147 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-yuidoc/-/gulp-yuidoc-0.1.2.tgz',
+147 silly install resolved     readme: 'ERROR: No README data found!' } ]
+148 info install gulp-bump@0.3.1 into /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+149 info install gulp-yuidoc@0.1.2 into /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+150 info installOne gulp-bump@0.3.1
+151 verbose installOne of gulp-bump to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App not in flight; installing
+152 info installOne gulp-yuidoc@0.1.2
+153 verbose installOne of gulp-yuidoc to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App not in flight; installing
+154 verbose lock using /Users/johnlight/.npm/_locks/gulp-bump-2bfe4c2dccfe5f44.lock for /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+155 verbose lock using /Users/johnlight/.npm/_locks/gulp-yuidoc-4a9d4999d016d77c.lock for /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+156 silly install write writing gulp-bump 0.3.1 to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+157 silly install write writing gulp-yuidoc 0.1.2 to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+158 verbose unbuild node_modules/gulp-bump
+159 verbose unbuild node_modules/gulp-yuidoc
+160 silly gentlyRm /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump is being purged from base /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+161 verbose gentlyRm don't care about contents; nuking /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+162 silly gentlyRm /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc is being purged from base /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+163 verbose gentlyRm don't care about contents; nuking /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+164 verbose tar unpack /Users/johnlight/.npm/gulp-bump/0.3.1/package.tgz
+165 verbose tar unpacking to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+166 silly gentlyRm /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump is being purged
+167 verbose gentlyRm don't care about contents; nuking /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+168 verbose tar unpack /Users/johnlight/.npm/gulp-yuidoc/0.1.2/package.tgz
+169 verbose tar unpacking to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+170 silly gentlyRm /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc is being purged
+171 verbose gentlyRm don't care about contents; nuking /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+172 silly gunzTarPerm modes [ '755', '644' ]
+173 silly gunzTarPerm modes [ '755', '644' ]
+174 silly gunzTarPerm extractEntry package.json
+175 silly gunzTarPerm extractEntry package.json
+176 silly gunzTarPerm extractEntry .npmignore
+177 silly gunzTarPerm extractEntry README.md
+178 silly gunzTarPerm extractEntry .npmignore
+179 silly gunzTarPerm extractEntry README.md
+180 silly gunzTarPerm extractEntry LICENSE
+181 silly gunzTarPerm extractEntry index.js
+182 silly gunzTarPerm extractEntry LICENSE
+183 silly gunzTarPerm extractEntry gulpfile.js
+184 silly gunzTarPerm extractEntry .editorconfig
+185 silly gunzTarPerm extractEntry .jshintrc
+186 silly gunzTarPerm extractEntry index.js
+187 silly gunzTarPerm extractEntry doc/yuidoc-inked/api.js
+188 silly gunzTarPerm extractEntry .travis.yml
+189 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/css/external-small.png
+190 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/css/logo.png
+191 silly gunzTarPerm extractEntry examples/package.json
+192 silly gunzTarPerm extractEntry examples/gulpfile.js
+193 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/css/main.css
+194 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/favicon.png
+195 silly gunzTarPerm extractEntry examples/key.json
+196 silly gunzTarPerm extractEntry examples/sublevel.json
+197 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/img/spinner.gif
+198 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/index.html
+199 silly gunzTarPerm extractEntry test/dotNotation.js
+200 silly gunzTarPerm extractEntry test/errorCases.js
+201 silly gunzTarPerm extractEntry test/fileFixtures.js
+202 silly gunzTarPerm extractEntry test/index.js
+203 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/js/api-filter.js
+204 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/js/api-list.js
+205 silly gunzTarPerm extractEntry test/whitespacePreserving.js
+206 silly gunzTarPerm extractEntry test/expected/default.json
+207 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/js/api-search.js
+208 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/js/apidocs.js
+209 silly gunzTarPerm extractEntry test/expected/key.json
+210 silly gunzTarPerm extractEntry test/expected/major.json
+211 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/js/yui-prettify.js
+212 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/vendor/prettify/prettify-min.js
+213 silly gunzTarPerm extractEntry test/expected/minor.json
+214 silly gunzTarPerm extractEntry test/expected/version.json
+215 silly gunzTarPerm extractEntry test/fixtures/package.json
+216 silly gunzTarPerm extractEntry test/fixtures/key.json
+217 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/vendor/prettify/CHANGES.html
+218 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/vendor/prettify/COPYING
+219 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/vendor/prettify/README.html
+220 silly gunzTarPerm extractEntry doc/yuidoc-inked/assets/vendor/prettify/prettify-min.css
+221 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/Help.html
+222 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/CLI.html
+223 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/DocParser.html
+224 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/DocView.html
+225 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/Files.html
+226 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/DocBuilder.html
+227 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/Main.html
+228 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/Options.html
+229 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/Server.html
+230 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/Utils.html
+231 silly gunzTarPerm extractEntry doc/yuidoc-inked/classes/YUIDoc.html
+232 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_docview.js.html
+233 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_index.js.html
+234 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_lib_generator.js.html
+235 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_lib_parser.js.html
+236 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_builder.js.html
+237 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_cli.js.html
+238 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_docparser.js.html
+239 verbose write writing to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump/package.json
+240 info preinstall gulp-bump@0.3.1
+241 verbose readDependencies loading dependencies from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump/package.json
+242 silly prepareForInstallMany adding dot-object@^0.6.0 from gulp-bump dependencies
+243 silly prepareForInstallMany adding gulp-util@^3.0.4 from gulp-bump dependencies
+244 silly prepareForInstallMany adding semver@^4.3.1 from gulp-bump dependencies
+245 silly prepareForInstallMany adding through2@^0.5.1 from gulp-bump dependencies
+246 verbose readDependencies loading dependencies from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump/package.json
+247 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_lib_chalkreporter.js.html
+248 silly cache add args [ 'semver@^4.3.1', null ]
+249 verbose cache add spec semver@^4.3.1
+250 silly cache add parsed spec { raw: 'semver@^4.3.1',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'semver',
+250 silly cache add   rawSpec: '^4.3.1',
+250 silly cache add   spec: '>=4.3.1 <5.0.0',
+250 silly cache add   type: 'range' }
+251 silly addNamed semver@>=4.3.1 <5.0.0
+252 verbose addNamed ">=4.3.1 <5.0.0" is a valid semver range for semver
+253 silly addNameRange { name: 'semver', range: '>=4.3.1 <5.0.0', hasData: false }
+254 silly mapToRegistry name semver
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry uri https://registry.npmjs.org/semver
+258 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+259 silly cache add args [ 'through2@^0.5.1', null ]
+260 verbose cache add spec through2@^0.5.1
+261 silly cache add parsed spec { raw: 'through2@^0.5.1',
+261 silly cache add   scope: null,
+261 silly cache add   name: 'through2',
+261 silly cache add   rawSpec: '^0.5.1',
+261 silly cache add   spec: '>=0.5.1 <0.6.0',
+261 silly cache add   type: 'range' }
+262 silly addNamed through2@>=0.5.1 <0.6.0
+263 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for through2
+264 silly addNameRange { name: 'through2', range: '>=0.5.1 <0.6.0', hasData: false }
+265 silly mapToRegistry name through2
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry uri https://registry.npmjs.org/through2
+269 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+270 silly cache add args [ 'dot-object@^0.6.0', null ]
+271 verbose cache add spec dot-object@^0.6.0
+272 silly cache add parsed spec { raw: 'dot-object@^0.6.0',
+272 silly cache add   scope: null,
+272 silly cache add   name: 'dot-object',
+272 silly cache add   rawSpec: '^0.6.0',
+272 silly cache add   spec: '>=0.6.0 <0.7.0',
+272 silly cache add   type: 'range' }
+273 silly addNamed dot-object@>=0.6.0 <0.7.0
+274 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for dot-object
+275 silly addNameRange { name: 'dot-object', range: '>=0.6.0 <0.7.0', hasData: false }
+276 silly mapToRegistry name dot-object
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/dot-object
+280 verbose addNameRange registry:https://registry.npmjs.org/dot-object not in flight; fetching
+281 silly cache add args [ 'gulp-util@^3.0.4', null ]
+282 verbose cache add spec gulp-util@^3.0.4
+283 silly cache add parsed spec { raw: 'gulp-util@^3.0.4',
+283 silly cache add   scope: null,
+283 silly cache add   name: 'gulp-util',
+283 silly cache add   rawSpec: '^3.0.4',
+283 silly cache add   spec: '>=3.0.4 <4.0.0',
+283 silly cache add   type: 'range' }
+284 silly addNamed gulp-util@>=3.0.4 <4.0.0
+285 verbose addNamed ">=3.0.4 <4.0.0" is a valid semver range for gulp-util
+286 silly addNameRange { name: 'gulp-util', range: '>=3.0.4 <4.0.0', hasData: false }
+287 silly mapToRegistry name gulp-util
+288 silly mapToRegistry using default registry
+289 silly mapToRegistry registry https://registry.npmjs.org/
+290 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+291 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+292 verbose request uri https://registry.npmjs.org/dot-object
+293 verbose request no auth needed
+294 info attempt registry request try #1 at 17:02:34
+295 verbose etag "2XU98YELD9JGD8X0OKOCEX2V"
+296 http request GET https://registry.npmjs.org/dot-object
+297 verbose request uri https://registry.npmjs.org/semver
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 17:02:34
+300 verbose etag "1ZOEY5UT3C2JHX0RH53ANWXOV"
+301 http request GET https://registry.npmjs.org/semver
+302 verbose request uri https://registry.npmjs.org/gulp-util
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 17:02:34
+305 verbose etag "C5ESNQQFXB8GX4S39L929R0UU"
+306 http request GET https://registry.npmjs.org/gulp-util
+307 verbose request uri https://registry.npmjs.org/through2
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 17:02:34
+310 verbose etag "AOHEBTEVDL1BBMD1UEHHBU2NX"
+311 http request GET https://registry.npmjs.org/through2
+312 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_files.js.html
+313 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_help.js.html
+314 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_index.js.html
+315 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_options.js.html
+316 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_server.js.html
+317 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_utils.js.html
+318 silly gunzTarPerm extractEntry doc/yuidoc-inked/files/_Users_dmp_dev_jsboot_gulp-yuidoc_node_modules_yuidocjs_lib_yuidoc.js.html
+319 silly gunzTarPerm extractEntry doc/yuidoc-inked/index.html
+320 silly gunzTarPerm extractEntry doc/yuidoc-inked/modules/yuidoc.html
+321 silly gunzTarPerm extractEntry TODO
+322 silly gunzTarPerm extractEntry coverage/coverage.json
+323 silly gunzTarPerm extractEntry coverage/lcov.info
+324 silly gunzTarPerm extractEntry .eslintrc
+325 silly gunzTarPerm extractEntry doccccc/api.js
+326 silly gunzTarPerm extractEntry doccccc/assets/css/external-small.png
+327 silly gunzTarPerm extractEntry doccccc/assets/css/logo.png
+328 silly gunzTarPerm extractEntry doccccc/assets/css/main.css
+329 silly gunzTarPerm extractEntry doccccc/assets/favicon.png
+330 silly gunzTarPerm extractEntry doccccc/assets/img/spinner.gif
+331 silly gunzTarPerm extractEntry doccccc/assets/index.html
+332 silly gunzTarPerm extractEntry doccccc/assets/js/api-filter.js
+333 silly gunzTarPerm extractEntry doccccc/assets/js/api-list.js
+334 silly gunzTarPerm extractEntry doccccc/assets/js/api-search.js
+335 silly gunzTarPerm extractEntry doccccc/assets/js/apidocs.js
+336 silly gunzTarPerm extractEntry doccccc/assets/js/yui-prettify.js
+337 silly gunzTarPerm extractEntry doccccc/assets/vendor/prettify/prettify-min.js
+338 silly gunzTarPerm extractEntry doccccc/assets/vendor/prettify/CHANGES.html
+339 silly gunzTarPerm extractEntry doccccc/assets/vendor/prettify/COPYING
+340 silly gunzTarPerm extractEntry doccccc/assets/vendor/prettify/README.html
+341 silly gunzTarPerm extractEntry doccccc/assets/vendor/prettify/prettify-min.css
+342 silly gunzTarPerm extractEntry doccccc/classes/index.html
+343 silly gunzTarPerm extractEntry doccccc/data.json
+344 silly gunzTarPerm extractEntry doccccc/files/index.html
+345 silly gunzTarPerm extractEntry doccccc/files/lib_chalkreporter.js.html
+346 silly gunzTarPerm extractEntry doccccc/files/lib_generator.js.html
+347 silly gunzTarPerm extractEntry doccccc/files/lib_parser.js.html
+348 silly gunzTarPerm extractEntry doccccc/index.html
+349 silly gunzTarPerm extractEntry doccccc/modules/index.html
+350 silly gunzTarPerm extractEntry gulp-yuidoc.sublime-project
+351 silly gunzTarPerm extractEntry gulp-yuidoc.sublime-workspace
+352 silly gunzTarPerm extractEntry .travis.yml
+353 silly gunzTarPerm extractEntry .jshintrc
+354 silly gunzTarPerm extractEntry lib/chalkreporter.js
+355 silly gunzTarPerm extractEntry lib/generator.js
+356 silly gunzTarPerm extractEntry lib/parser.js
+357 silly gunzTarPerm extractEntry lib/uglyreporter.js
+358 silly gunzTarPerm extractEntry .editorconfig
+359 silly gunzTarPerm extractEntry test/main.js
+360 silly gunzTarPerm extractEntry test/expected/hello.txt
+361 silly gunzTarPerm extractEntry test/fixtures/hello.txt
+362 http 304 https://registry.npmjs.org/semver
+363 silly get cb [ 304,
+363 silly get   { date: 'Sat, 08 Aug 2015 22:02:34 GMT',
+363 silly get     via: '1.1 varnish',
+363 silly get     'cache-control': 'max-age=60',
+363 silly get     etag: '"1ZOEY5UT3C2JHX0RH53ANWXOV"',
+363 silly get     age: '21',
+363 silly get     connection: 'keep-alive',
+363 silly get     'x-served-by': 'cache-dfw1834-DFW',
+363 silly get     'x-cache': 'HIT',
+363 silly get     'x-cache-hits': '2',
+363 silly get     'x-timer': 'S1439071354.686728,VS0,VE0',
+363 silly get     vary: 'Accept' } ]
+364 verbose etag https://registry.npmjs.org/semver from cache
+365 verbose get saving semver to /Users/johnlight/.npm/registry.npmjs.org/semver/.cache.json
+366 http 304 https://registry.npmjs.org/through2
+367 silly get cb [ 304,
+367 silly get   { date: 'Sat, 08 Aug 2015 22:02:34 GMT',
+367 silly get     via: '1.1 varnish',
+367 silly get     'cache-control': 'max-age=60',
+367 silly get     etag: '"AOHEBTEVDL1BBMD1UEHHBU2NX"',
+367 silly get     age: '2',
+367 silly get     connection: 'keep-alive',
+367 silly get     'x-served-by': 'cache-dfw1822-DFW',
+367 silly get     'x-cache': 'HIT',
+367 silly get     'x-cache-hits': '1',
+367 silly get     'x-timer': 'S1439071354.688711,VS0,VE0',
+367 silly get     vary: 'Accept' } ]
+368 verbose etag https://registry.npmjs.org/through2 from cache
+369 verbose get saving through2 to /Users/johnlight/.npm/registry.npmjs.org/through2/.cache.json
+370 silly addNameRange number 2 { name: 'through2', range: '>=0.5.1 <0.6.0', hasData: true }
+371 silly addNameRange versions [ 'through2',
+371 silly addNameRange   [ '0.0.0',
+371 silly addNameRange     '0.0.1',
+371 silly addNameRange     '0.0.2',
+371 silly addNameRange     '0.0.3',
+371 silly addNameRange     '0.0.4',
+371 silly addNameRange     '0.0.5',
+371 silly addNameRange     '0.1.0',
+371 silly addNameRange     '0.2.0',
+371 silly addNameRange     '0.2.1',
+371 silly addNameRange     '0.2.2',
+371 silly addNameRange     '0.2.3',
+371 silly addNameRange     '0.3.0',
+371 silly addNameRange     '0.4.0',
+371 silly addNameRange     '0.4.1',
+371 silly addNameRange     '1.0.0',
+371 silly addNameRange     '0.4.2',
+371 silly addNameRange     '0.5.0',
+371 silly addNameRange     '0.5.1',
+371 silly addNameRange     '0.6.0',
+371 silly addNameRange     '1.1.0',
+371 silly addNameRange     '0.6.1',
+371 silly addNameRange     '1.1.1',
+371 silly addNameRange     '0.6.2',
+371 silly addNameRange     '0.6.3',
+371 silly addNameRange     '0.6.4',
+371 silly addNameRange     '0.6.5',
+371 silly addNameRange     '2.0.0' ] ]
+372 silly addNamed through2@0.5.1
+373 verbose addNamed "0.5.1" is a plain semver version for through2
+374 silly addNameRange number 2 { name: 'semver', range: '>=4.3.1 <5.0.0', hasData: true }
+375 silly addNameRange versions [ 'semver',
+375 silly addNameRange   [ '1.0.0',
+375 silly addNameRange     '1.0.1',
+375 silly addNameRange     '1.0.2',
+375 silly addNameRange     '1.0.3',
+375 silly addNameRange     '1.0.4',
+375 silly addNameRange     '1.0.5',
+375 silly addNameRange     '1.0.6',
+375 silly addNameRange     '1.0.7',
+375 silly addNameRange     '1.0.8',
+375 silly addNameRange     '1.0.9',
+375 silly addNameRange     '1.0.10',
+375 silly addNameRange     '1.0.11',
+375 silly addNameRange     '1.0.12',
+375 silly addNameRange     '1.0.13',
+375 silly addNameRange     '1.0.14',
+375 silly addNameRange     '1.1.0',
+375 silly addNameRange     '1.1.1',
+375 silly addNameRange     '1.1.2',
+375 silly addNameRange     '1.1.3',
+375 silly addNameRange     '1.1.4',
+375 silly addNameRange     '2.0.0-alpha',
+375 silly addNameRange     '2.0.0-beta',
+375 silly addNameRange     '2.0.1',
+375 silly addNameRange     '2.0.2',
+375 silly addNameRange     '2.0.3',
+375 silly addNameRange     '2.0.4',
+375 silly addNameRange     '2.0.5',
+375 silly addNameRange     '2.0.6',
+375 silly addNameRange     '2.0.7',
+375 silly addNameRange     '2.0.8',
+375 silly addNameRange     '2.0.9',
+375 silly addNameRange     '2.0.10',
+375 silly addNameRange     '2.0.11',
+375 silly addNameRange     '2.1.0',
+375 silly addNameRange     '2.2.0',
+375 silly addNameRange     '2.2.1',
+375 silly addNameRange     '2.3.0',
+375 silly addNameRange     '2.3.1',
+375 silly addNameRange     '2.3.2',
+375 silly addNameRange     '3.0.0',
+375 silly addNameRange     '3.0.1',
+375 silly addNameRange     '4.0.0',
+375 silly addNameRange     '4.0.2',
+375 silly addNameRange     '4.0.3',
+375 silly addNameRange     '4.1.0',
+375 silly addNameRange     '4.1.1',
+375 silly addNameRange     '4.2.0',
+375 silly addNameRange     '4.2.1',
+375 silly addNameRange     '4.2.2',
+375 silly addNameRange     '4.3.0',
+375 silly addNameRange     '4.3.1',
+375 silly addNameRange     '4.3.2',
+375 silly addNameRange     '4.3.3',
+375 silly addNameRange     '4.3.4',
+375 silly addNameRange     '4.3.5',
+375 silly addNameRange     '4.3.6',
+375 silly addNameRange     '5.0.0',
+375 silly addNameRange     '5.0.1' ] ]
+376 silly addNamed semver@4.3.6
+377 verbose addNamed "4.3.6" is a plain semver version for semver
+378 silly mapToRegistry name through2
+379 silly mapToRegistry using default registry
+380 silly mapToRegistry registry https://registry.npmjs.org/
+381 silly mapToRegistry uri https://registry.npmjs.org/through2
+382 verbose addRemoteTarball https://registry.npmjs.org/through2/-/through2-0.5.1.tgz not in flight; adding
+383 verbose addRemoteTarball [ 'https://registry.npmjs.org/through2/-/through2-0.5.1.tgz',
+383 verbose addRemoteTarball   'dfdd012eb9c700e2323fd334f38ac622ab372da7' ]
+384 silly cache afterAdd semver@4.3.6
+385 verbose afterAdd /Users/johnlight/.npm/semver/4.3.6/package/package.json not in flight; writing
+386 info retry fetch attempt 1 at 17:02:34
+387 info attempt registry request try #1 at 17:02:34
+388 http fetch GET https://registry.npmjs.org/through2/-/through2-0.5.1.tgz
+389 verbose afterAdd /Users/johnlight/.npm/semver/4.3.6/package/package.json written
+390 http 304 https://registry.npmjs.org/gulp-util
+391 silly get cb [ 304,
+391 silly get   { date: 'Sat, 08 Aug 2015 22:02:34 GMT',
+391 silly get     via: '1.1 varnish',
+391 silly get     'cache-control': 'max-age=60',
+391 silly get     etag: '"C5ESNQQFXB8GX4S39L929R0UU"',
+391 silly get     age: '0',
+391 silly get     connection: 'keep-alive',
+391 silly get     'x-served-by': 'cache-dfw1822-DFW',
+391 silly get     'x-cache': 'HIT',
+391 silly get     'x-cache-hits': '1',
+391 silly get     'x-timer': 'S1439071354.688678,VS0,VE69',
+391 silly get     vary: 'Accept' } ]
+392 verbose etag https://registry.npmjs.org/gulp-util from cache
+393 verbose get saving gulp-util to /Users/johnlight/.npm/registry.npmjs.org/gulp-util/.cache.json
+394 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.4 <4.0.0', hasData: true }
+395 silly addNameRange versions [ 'gulp-util',
+395 silly addNameRange   [ '0.0.1',
+395 silly addNameRange     '1.0.0',
+395 silly addNameRange     '1.1.0',
+395 silly addNameRange     '1.1.1',
+395 silly addNameRange     '1.2.0',
+395 silly addNameRange     '1.3.0',
+395 silly addNameRange     '2.0.0',
+395 silly addNameRange     '2.1.1',
+395 silly addNameRange     '2.1.2',
+395 silly addNameRange     '2.1.3',
+395 silly addNameRange     '2.1.4',
+395 silly addNameRange     '2.2.0',
+395 silly addNameRange     '2.2.1',
+395 silly addNameRange     '2.2.2',
+395 silly addNameRange     '2.2.3',
+395 silly addNameRange     '2.2.5',
+395 silly addNameRange     '2.2.6',
+395 silly addNameRange     '2.2.7',
+395 silly addNameRange     '2.2.8',
+395 silly addNameRange     '2.2.9',
+395 silly addNameRange     '2.2.10',
+395 silly addNameRange     '2.2.11',
+395 silly addNameRange     '2.2.12',
+395 silly addNameRange     '2.2.13',
+395 silly addNameRange     '2.2.14',
+395 silly addNameRange     '2.2.15',
+395 silly addNameRange     '2.2.16',
+395 silly addNameRange     '2.2.17',
+395 silly addNameRange     '2.2.18',
+395 silly addNameRange     '2.2.19',
+395 silly addNameRange     '2.2.20',
+395 silly addNameRange     '3.0.0',
+395 silly addNameRange     '3.0.1',
+395 silly addNameRange     '3.0.2',
+395 silly addNameRange     '3.0.3',
+395 silly addNameRange     '3.0.4',
+395 silly addNameRange     '3.0.5',
+395 silly addNameRange     '3.0.6' ] ]
+396 silly addNamed gulp-util@3.0.6
+397 verbose addNamed "3.0.6" is a plain semver version for gulp-util
+398 silly cache afterAdd gulp-util@3.0.6
+399 verbose afterAdd /Users/johnlight/.npm/gulp-util/3.0.6/package/package.json not in flight; writing
+400 verbose afterAdd /Users/johnlight/.npm/gulp-util/3.0.6/package/package.json written
+401 verbose write writing to /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc/package.json
+402 info preinstall gulp-yuidoc@0.1.2
+403 verbose readDependencies loading dependencies from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc/package.json
+404 silly prepareForInstallMany adding through2@0.4.1 from gulp-yuidoc dependencies
+405 silly prepareForInstallMany adding gulp-util@~2.2.0 from gulp-yuidoc dependencies
+406 silly prepareForInstallMany adding yuidocjs@~0.3.47 from gulp-yuidoc dependencies
+407 silly prepareForInstallMany adding chalk@~0.4.0 from gulp-yuidoc dependencies
+408 silly prepareForInstallMany adding text-table@~0.2.0 from gulp-yuidoc dependencies
+409 silly prepareForInstallMany adding vinyl-fs@~0.1.2 from gulp-yuidoc dependencies
+410 verbose readDependencies loading dependencies from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc/package.json
+411 silly cache add args [ 'through2@0.4.1', null ]
+412 verbose cache add spec through2@0.4.1
+413 silly cache add args [ 'gulp-util@~2.2.0', null ]
+414 verbose cache add spec gulp-util@~2.2.0
+415 silly cache add parsed spec { raw: 'through2@0.4.1',
+415 silly cache add   scope: null,
+415 silly cache add   name: 'through2',
+415 silly cache add   rawSpec: '0.4.1',
+415 silly cache add   spec: '0.4.1',
+415 silly cache add   type: 'version' }
+416 silly addNamed through2@0.4.1
+417 verbose addNamed "0.4.1" is a plain semver version for through2
+418 silly mapToRegistry name through2
+419 silly mapToRegistry using default registry
+420 silly mapToRegistry registry https://registry.npmjs.org/
+421 silly mapToRegistry uri https://registry.npmjs.org/through2
+422 verbose addNameVersion registry:https://registry.npmjs.org/through2 not in flight; fetching
+423 silly cache add parsed spec { raw: 'gulp-util@~2.2.0',
+423 silly cache add   scope: null,
+423 silly cache add   name: 'gulp-util',
+423 silly cache add   rawSpec: '~2.2.0',
+423 silly cache add   spec: '>=2.2.0 <2.3.0',
+423 silly cache add   type: 'range' }
+424 silly addNamed gulp-util@>=2.2.0 <2.3.0
+425 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for gulp-util
+426 silly addNameRange { name: 'gulp-util', range: '>=2.2.0 <2.3.0', hasData: false }
+427 silly mapToRegistry name gulp-util
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry https://registry.npmjs.org/
+430 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+431 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+432 silly cache add args [ 'yuidocjs@~0.3.47', null ]
+433 verbose cache add spec yuidocjs@~0.3.47
+434 silly cache add parsed spec { raw: 'yuidocjs@~0.3.47',
+434 silly cache add   scope: null,
+434 silly cache add   name: 'yuidocjs',
+434 silly cache add   rawSpec: '~0.3.47',
+434 silly cache add   spec: '>=0.3.47 <0.4.0',
+434 silly cache add   type: 'range' }
+435 silly addNamed yuidocjs@>=0.3.47 <0.4.0
+436 verbose addNamed ">=0.3.47 <0.4.0" is a valid semver range for yuidocjs
+437 silly addNameRange { name: 'yuidocjs', range: '>=0.3.47 <0.4.0', hasData: false }
+438 silly mapToRegistry name yuidocjs
+439 silly mapToRegistry using default registry
+440 silly mapToRegistry registry https://registry.npmjs.org/
+441 silly mapToRegistry uri https://registry.npmjs.org/yuidocjs
+442 verbose addNameRange registry:https://registry.npmjs.org/yuidocjs not in flight; fetching
+443 silly cache add args [ 'chalk@~0.4.0', null ]
+444 verbose cache add spec chalk@~0.4.0
+445 silly cache add parsed spec { raw: 'chalk@~0.4.0',
+445 silly cache add   scope: null,
+445 silly cache add   name: 'chalk',
+445 silly cache add   rawSpec: '~0.4.0',
+445 silly cache add   spec: '>=0.4.0 <0.5.0',
+445 silly cache add   type: 'range' }
+446 silly addNamed chalk@>=0.4.0 <0.5.0
+447 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for chalk
+448 silly addNameRange { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: false }
+449 silly mapToRegistry name chalk
+450 silly mapToRegistry using default registry
+451 silly mapToRegistry registry https://registry.npmjs.org/
+452 silly mapToRegistry uri https://registry.npmjs.org/chalk
+453 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+454 silly cache add args [ 'text-table@~0.2.0', null ]
+455 verbose cache add spec text-table@~0.2.0
+456 silly cache add parsed spec { raw: 'text-table@~0.2.0',
+456 silly cache add   scope: null,
+456 silly cache add   name: 'text-table',
+456 silly cache add   rawSpec: '~0.2.0',
+456 silly cache add   spec: '>=0.2.0 <0.3.0',
+456 silly cache add   type: 'range' }
+457 silly addNamed text-table@>=0.2.0 <0.3.0
+458 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for text-table
+459 silly addNameRange { name: 'text-table', range: '>=0.2.0 <0.3.0', hasData: false }
+460 silly mapToRegistry name text-table
+461 silly mapToRegistry using default registry
+462 silly mapToRegistry registry https://registry.npmjs.org/
+463 silly mapToRegistry uri https://registry.npmjs.org/text-table
+464 verbose addNameRange registry:https://registry.npmjs.org/text-table not in flight; fetching
+465 silly cache add args [ 'vinyl-fs@~0.1.2', null ]
+466 verbose cache add spec vinyl-fs@~0.1.2
+467 silly cache add parsed spec { raw: 'vinyl-fs@~0.1.2',
+467 silly cache add   scope: null,
+467 silly cache add   name: 'vinyl-fs',
+467 silly cache add   rawSpec: '~0.1.2',
+467 silly cache add   spec: '>=0.1.2 <0.2.0',
+467 silly cache add   type: 'range' }
+468 silly addNamed vinyl-fs@>=0.1.2 <0.2.0
+469 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for vinyl-fs
+470 silly addNameRange { name: 'vinyl-fs', range: '>=0.1.2 <0.2.0', hasData: false }
+471 silly mapToRegistry name vinyl-fs
+472 silly mapToRegistry using default registry
+473 silly mapToRegistry registry https://registry.npmjs.org/
+474 silly mapToRegistry uri https://registry.npmjs.org/vinyl-fs
+475 verbose addNameRange registry:https://registry.npmjs.org/vinyl-fs not in flight; fetching
+476 http fetch 200 https://registry.npmjs.org/through2/-/through2-0.5.1.tgz
+477 http 304 https://registry.npmjs.org/dot-object
+478 silly get cb [ 304,
+478 silly get   { date: 'Sat, 08 Aug 2015 22:02:34 GMT',
+478 silly get     via: '1.1 varnish',
+478 silly get     'cache-control': 'max-age=60',
+478 silly get     etag: '"2XU98YELD9JGD8X0OKOCEX2V"',
+478 silly get     age: '0',
+478 silly get     connection: 'keep-alive',
+478 silly get     'x-served-by': 'cache-dfw1830-DFW',
+478 silly get     'x-cache': 'MISS',
+478 silly get     'x-cache-hits': '0',
+478 silly get     'x-timer': 'S1439071354.688605,VS0,VE193',
+478 silly get     vary: 'Accept' } ]
+479 verbose etag https://registry.npmjs.org/dot-object from cache
+480 verbose get saving dot-object to /Users/johnlight/.npm/registry.npmjs.org/dot-object/.cache.json
+481 verbose get https://registry.npmjs.org/through2 not expired, no request
+482 verbose get https://registry.npmjs.org/gulp-util not expired, no request
+483 silly addNameRange number 2 { name: 'gulp-util', range: '>=2.2.0 <2.3.0', hasData: true }
+484 silly addNameRange versions [ 'gulp-util',
+484 silly addNameRange   [ '0.0.1',
+484 silly addNameRange     '1.0.0',
+484 silly addNameRange     '1.1.0',
+484 silly addNameRange     '1.1.1',
+484 silly addNameRange     '1.2.0',
+484 silly addNameRange     '1.3.0',
+484 silly addNameRange     '2.0.0',
+484 silly addNameRange     '2.1.1',
+484 silly addNameRange     '2.1.2',
+484 silly addNameRange     '2.1.3',
+484 silly addNameRange     '2.1.4',
+484 silly addNameRange     '2.2.0',
+484 silly addNameRange     '2.2.1',
+484 silly addNameRange     '2.2.2',
+484 silly addNameRange     '2.2.3',
+484 silly addNameRange     '2.2.5',
+484 silly addNameRange     '2.2.6',
+484 silly addNameRange     '2.2.7',
+484 silly addNameRange     '2.2.8',
+484 silly addNameRange     '2.2.9',
+484 silly addNameRange     '2.2.10',
+484 silly addNameRange     '2.2.11',
+484 silly addNameRange     '2.2.12',
+484 silly addNameRange     '2.2.13',
+484 silly addNameRange     '2.2.14',
+484 silly addNameRange     '2.2.15',
+484 silly addNameRange     '2.2.16',
+484 silly addNameRange     '2.2.17',
+484 silly addNameRange     '2.2.18',
+484 silly addNameRange     '2.2.19',
+484 silly addNameRange     '2.2.20',
+484 silly addNameRange     '3.0.0',
+484 silly addNameRange     '3.0.1',
+484 silly addNameRange     '3.0.2',
+484 silly addNameRange     '3.0.3',
+484 silly addNameRange     '3.0.4',
+484 silly addNameRange     '3.0.5',
+484 silly addNameRange     '3.0.6' ] ]
+485 silly addNamed gulp-util@2.2.20
+486 verbose addNamed "2.2.20" is a plain semver version for gulp-util
+487 verbose request uri https://registry.npmjs.org/yuidocjs
+488 verbose request no auth needed
+489 info attempt registry request try #1 at 17:02:34
+490 verbose etag "A5QDBMG21L0E31PX9HE1LUW1"
+491 http request GET https://registry.npmjs.org/yuidocjs
+492 silly mapToRegistry name through2
+493 silly mapToRegistry using default registry
+494 silly mapToRegistry registry https://registry.npmjs.org/
+495 silly mapToRegistry uri https://registry.npmjs.org/through2
+496 verbose addRemoteTarball https://registry.npmjs.org/through2/-/through2-0.4.1.tgz not in flight; adding
+497 verbose addRemoteTarball [ 'https://registry.npmjs.org/through2/-/through2-0.4.1.tgz',
+497 verbose addRemoteTarball   'afd849c65af513c2541a98a7cfbcfec3a15a9686' ]
+498 verbose request uri https://registry.npmjs.org/chalk
+499 verbose request no auth needed
+500 info attempt registry request try #1 at 17:02:34
+501 verbose etag "DQANZQC56QUIWIFLDWFN2FTQW"
+502 http request GET https://registry.npmjs.org/chalk
+503 verbose request uri https://registry.npmjs.org/text-table
+504 verbose request no auth needed
+505 info attempt registry request try #1 at 17:02:34
+506 verbose etag "6YTUPPMQUP0S9VSFHF0Z7XUXN"
+507 http request GET https://registry.npmjs.org/text-table
+508 verbose request uri https://registry.npmjs.org/vinyl-fs
+509 verbose request no auth needed
+510 info attempt registry request try #1 at 17:02:34
+511 verbose etag "8KO2C6LHP0DZYWTLOO1LMEKMG"
+512 http request GET https://registry.npmjs.org/vinyl-fs
+513 info retry fetch attempt 1 at 17:02:34
+514 info attempt registry request try #1 at 17:02:34
+515 http fetch GET https://registry.npmjs.org/through2/-/through2-0.4.1.tgz
+516 silly fetchAndShaCheck shasum dfdd012eb9c700e2323fd334f38ac622ab372da7
+517 silly addNameRange number 2 { name: 'dot-object', range: '>=0.6.0 <0.7.0', hasData: true }
+518 silly addNameRange versions [ 'dot-object',
+518 silly addNameRange   [ '0.3.0',
+518 silly addNameRange     '0.4.0',
+518 silly addNameRange     '0.4.1',
+518 silly addNameRange     '0.5.0',
+518 silly addNameRange     '0.6.0',
+518 silly addNameRange     '0.7.0',
+518 silly addNameRange     '0.8.0',
+518 silly addNameRange     '0.8.1',
+518 silly addNameRange     '0.9.0',
+518 silly addNameRange     '0.9.1',
+518 silly addNameRange     '0.9.2',
+518 silly addNameRange     '0.9.3',
+518 silly addNameRange     '0.10.0',
+518 silly addNameRange     '0.11.0',
+518 silly addNameRange     '1.0.0',
+518 silly addNameRange     '1.0.1',
+518 silly addNameRange     '1.1.0' ] ]
+519 silly addNamed dot-object@0.6.0
+520 verbose addNamed "0.6.0" is a plain semver version for dot-object
+521 verbose addTmpTarball /tmp/npm-14929-30c67dc0/registry.npmjs.org/through2/-/through2-0.5.1.tgz not in flight; adding
+522 verbose addTmpTarball already have metadata; skipping unpack for through2@0.5.1
+523 silly cache afterAdd gulp-util@2.2.20
+524 verbose afterAdd /Users/johnlight/.npm/gulp-util/2.2.20/package/package.json not in flight; writing
+525 silly cache afterAdd dot-object@0.6.0
+526 verbose afterAdd /Users/johnlight/.npm/dot-object/0.6.0/package/package.json not in flight; writing
+527 verbose afterAdd /Users/johnlight/.npm/gulp-util/2.2.20/package/package.json written
+528 verbose afterAdd /Users/johnlight/.npm/dot-object/0.6.0/package/package.json written
+529 verbose about to build /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+530 verbose unlock done using /Users/johnlight/.npm/_locks/gulp-bump-2bfe4c2dccfe5f44.lock for /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+531 http 304 https://registry.npmjs.org/chalk
+532 silly get cb [ 304,
+532 silly get   { date: 'Sat, 08 Aug 2015 22:02:35 GMT',
+532 silly get     via: '1.1 varnish',
+532 silly get     'cache-control': 'max-age=60',
+532 silly get     etag: '"DQANZQC56QUIWIFLDWFN2FTQW"',
+532 silly get     age: '20',
+532 silly get     connection: 'keep-alive',
+532 silly get     'x-served-by': 'cache-dfw1831-DFW',
+532 silly get     'x-cache': 'HIT',
+532 silly get     'x-cache-hits': '1',
+532 silly get     'x-timer': 'S1439071355.091198,VS0,VE0',
+532 silly get     vary: 'Accept' } ]
+533 verbose etag https://registry.npmjs.org/chalk from cache
+534 verbose get saving chalk to /Users/johnlight/.npm/registry.npmjs.org/chalk/.cache.json
+535 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: true }
+536 silly addNameRange versions [ 'chalk',
+536 silly addNameRange   [ '0.1.0',
+536 silly addNameRange     '0.1.1',
+536 silly addNameRange     '0.2.0',
+536 silly addNameRange     '0.2.1',
+536 silly addNameRange     '0.3.0',
+536 silly addNameRange     '0.4.0',
+536 silly addNameRange     '0.5.0',
+536 silly addNameRange     '0.5.1',
+536 silly addNameRange     '1.0.0',
+536 silly addNameRange     '1.1.0' ] ]
+537 silly addNamed chalk@0.4.0
+538 verbose addNamed "0.4.0" is a plain semver version for chalk
+539 silly cache afterAdd chalk@0.4.0
+540 verbose afterAdd /Users/johnlight/.npm/chalk/0.4.0/package/package.json not in flight; writing
+541 verbose afterAdd /Users/johnlight/.npm/chalk/0.4.0/package/package.json written
+542 http 304 https://registry.npmjs.org/yuidocjs
+543 silly get cb [ 304,
+543 silly get   { date: 'Sat, 08 Aug 2015 22:02:35 GMT',
+543 silly get     via: '1.1 varnish',
+543 silly get     'cache-control': 'max-age=60',
+543 silly get     etag: '"A5QDBMG21L0E31PX9HE1LUW1"',
+543 silly get     age: '0',
+543 silly get     connection: 'keep-alive',
+543 silly get     'x-served-by': 'cache-dfw1824-DFW',
+543 silly get     'x-cache': 'HIT',
+543 silly get     'x-cache-hits': '1',
+543 silly get     'x-timer': 'S1439071355.091031,VS0,VE190',
+543 silly get     vary: 'Accept' } ]
+544 verbose etag https://registry.npmjs.org/yuidocjs from cache
+545 verbose get saving yuidocjs to /Users/johnlight/.npm/registry.npmjs.org/yuidocjs/.cache.json
+546 http fetch 200 https://registry.npmjs.org/through2/-/through2-0.4.1.tgz
+547 silly addNameRange number 2 { name: 'yuidocjs', range: '>=0.3.47 <0.4.0', hasData: true }
+548 silly addNameRange versions [ 'yuidocjs',
+548 silly addNameRange   [ '0.2.6',
+548 silly addNameRange     '0.2.7',
+548 silly addNameRange     '0.2.8',
+548 silly addNameRange     '0.2.9',
+548 silly addNameRange     '0.2.10',
+548 silly addNameRange     '0.2.11',
+548 silly addNameRange     '0.2.12',
+548 silly addNameRange     '0.2.13',
+548 silly addNameRange     '0.2.14',
+548 silly addNameRange     '0.2.15',
+548 silly addNameRange     '0.2.16',
+548 silly addNameRange     '0.2.17',
+548 silly addNameRange     '0.2.18',
+548 silly addNameRange     '0.2.19',
+548 silly addNameRange     '0.2.20',
+548 silly addNameRange     '0.2.21',
+548 silly addNameRange     '0.2.22',
+548 silly addNameRange     '0.2.23',
+548 silly addNameRange     '0.2.24',
+548 silly addNameRange     '0.2.25',
+548 silly addNameRange     '0.2.26',
+548 silly addNameRange     '0.2.27',
+548 silly addNameRange     '0.2.28',
+548 silly addNameRange     '0.2.29',
+548 silly addNameRange     '0.2.30',
+548 silly addNameRange     '0.2.31',
+548 silly addNameRange     '0.2.32',
+548 silly addNameRange     '0.2.33',
+548 silly addNameRange     '0.2.34',
+548 silly addNameRange     '0.2.35',
+548 silly addNameRange     '0.2.36',
+548 silly addNameRange     '0.2.37',
+548 silly addNameRange     '0.2.38',
+548 silly addNameRange     '0.2.39',
+548 silly addNameRange     '0.2.40',
+548 silly addNameRange     '0.2.41',
+548 silly addNameRange     '0.2.42',
+548 silly addNameRange     '0.2.43',
+548 silly addNameRange     '0.2.44',
+548 silly addNameRange     '0.3.0',
+548 silly addNameRange     '0.3.1',
+548 silly addNameRange     '0.3.2',
+548 silly addNameRange     '0.3.3',
+548 silly addNameRange     '0.3.4',
+548 silly addNameRange     '0.3.5',
+548 silly addNameRange     '0.3.6',
+548 silly addNameRange     '0.3.7',
+548 silly addNameRange     '0.3.8',
+548 silly addNameRange     '0.3.9',
+548 silly addNameRange     '0.3.10',
+548 silly addNameRange     '0.3.11',
+548 silly addNameRange     '0.3.12',
+548 silly addNameRange     '0.3.13',
+548 silly addNameRange     '0.3.14',
+548 silly addNameRange     '0.3.15',
+548 silly addNameRange     '0.3.16',
+548 silly addNameRange     '0.3.17',
+548 silly addNameRange     '0.3.18',
+548 silly addNameRange     '0.3.19',
+548 silly addNameRange     '0.3.20',
+548 silly addNameRange     '0.3.21',
+548 silly addNameRange     '0.3.22',
+548 silly addNameRange     '0.3.23',
+548 silly addNameRange     '0.3.24',
+548 silly addNameRange     '0.3.25',
+548 silly addNameRange     '0.3.26',
+548 silly addNameRange     '0.3.27',
+548 silly addNameRange     '0.3.28',
+548 silly addNameRange     '0.3.29',
+548 silly addNameRange     '0.3.30',
+548 silly addNameRange     '0.3.31',
+548 silly addNameRange     '0.3.32',
+548 silly addNameRange     '0.3.33',
+548 silly addNameRange     '0.3.34',
+548 silly addNameRange     '0.3.35',
+548 silly addNameRange     '0.3.36',
+548 silly addNameRange     '0.3.37',
+548 silly addNameRange     '0.3.38',
+548 silly addNameRange     '0.3.39',
+548 silly addNameRange     '0.3.40',
+548 silly addNameRange     '0.3.41',
+548 silly addNameRange     '0.3.42',
+548 silly addNameRange     '0.3.43',
+548 silly addNameRange     '0.3.44',
+548 silly addNameRange     '0.3.45',
+548 silly addNameRange     '0.3.46',
+548 silly addNameRange     '0.3.47',
+548 silly addNameRange     '0.3.48',
+548 silly addNameRange     '0.3.49',
+548 silly addNameRange     '0.3.50',
+548 silly addNameRange     '0.4.0',
+548 silly addNameRange     '0.5.0',
+548 silly addNameRange     '0.6.0',
+548 silly addNameRange     '0.7.0',
+548 silly addNameRange     '0.8.0',
+548 silly addNameRange     '0.8.1' ] ]
+549 silly addNamed yuidocjs@0.3.50
+550 verbose addNamed "0.3.50" is a plain semver version for yuidocjs
+551 silly fetchAndShaCheck shasum afd849c65af513c2541a98a7cfbcfec3a15a9686
+552 verbose addTmpTarball /tmp/npm-14929-30c67dc0/registry.npmjs.org/through2/-/through2-0.4.1.tgz not in flight; adding
+553 verbose addTmpTarball already have metadata; skipping unpack for through2@0.4.1
+554 silly cache afterAdd yuidocjs@0.3.50
+555 verbose afterAdd /Users/johnlight/.npm/yuidocjs/0.3.50/package/package.json not in flight; writing
+556 verbose afterAdd /Users/johnlight/.npm/yuidocjs/0.3.50/package/package.json written
+557 http 304 https://registry.npmjs.org/vinyl-fs
+558 silly get cb [ 304,
+558 silly get   { date: 'Sat, 08 Aug 2015 22:02:35 GMT',
+558 silly get     via: '1.1 varnish',
+558 silly get     'cache-control': 'max-age=60',
+558 silly get     etag: '"8KO2C6LHP0DZYWTLOO1LMEKMG"',
+558 silly get     age: '0',
+558 silly get     connection: 'keep-alive',
+558 silly get     'x-served-by': 'cache-dfw1834-DFW',
+558 silly get     'x-cache': 'HIT',
+558 silly get     'x-cache-hits': '1',
+558 silly get     'x-timer': 'S1439071355.090173,VS0,VE267',
+558 silly get     vary: 'Accept' } ]
+559 verbose etag https://registry.npmjs.org/vinyl-fs from cache
+560 verbose get saving vinyl-fs to /Users/johnlight/.npm/registry.npmjs.org/vinyl-fs/.cache.json
+561 http 304 https://registry.npmjs.org/text-table
+562 silly get cb [ 304,
+562 silly get   { date: 'Sat, 08 Aug 2015 22:02:35 GMT',
+562 silly get     via: '1.1 varnish',
+562 silly get     'cache-control': 'max-age=60',
+562 silly get     etag: '"6YTUPPMQUP0S9VSFHF0Z7XUXN"',
+562 silly get     age: '0',
+562 silly get     connection: 'keep-alive',
+562 silly get     'x-served-by': 'cache-dfw1820-DFW',
+562 silly get     'x-cache': 'HIT',
+562 silly get     'x-cache-hits': '1',
+562 silly get     'x-timer': 'S1439071355.090534,VS0,VE269',
+562 silly get     vary: 'Accept' } ]
+563 verbose etag https://registry.npmjs.org/text-table from cache
+564 verbose get saving text-table to /Users/johnlight/.npm/registry.npmjs.org/text-table/.cache.json
+565 silly addNameRange number 2 { name: 'text-table', range: '>=0.2.0 <0.3.0', hasData: true }
+566 silly addNameRange versions [ 'text-table',
+566 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.1.1', '0.2.0' ] ]
+567 silly addNamed text-table@0.2.0
+568 verbose addNamed "0.2.0" is a plain semver version for text-table
+569 silly addNameRange number 2 { name: 'vinyl-fs', range: '>=0.1.2 <0.2.0', hasData: true }
+570 silly addNameRange versions [ 'vinyl-fs',
+570 silly addNameRange   [ '0.0.1',
+570 silly addNameRange     '0.0.2',
+570 silly addNameRange     '0.1.0',
+570 silly addNameRange     '0.1.1',
+570 silly addNameRange     '0.1.2',
+570 silly addNameRange     '0.1.3',
+570 silly addNameRange     '0.1.4',
+570 silly addNameRange     '0.2.0',
+570 silly addNameRange     '0.2.1',
+570 silly addNameRange     '0.3.0',
+570 silly addNameRange     '0.3.1',
+570 silly addNameRange     '0.3.2',
+570 silly addNameRange     '0.3.3',
+570 silly addNameRange     '0.3.4',
+570 silly addNameRange     '0.3.5',
+570 silly addNameRange     '0.3.6',
+570 silly addNameRange     '0.3.7',
+570 silly addNameRange     '0.3.8',
+570 silly addNameRange     '0.3.9',
+570 silly addNameRange     '0.3.10',
+570 silly addNameRange     '0.3.11',
+570 silly addNameRange     '0.3.12',
+570 silly addNameRange     '0.3.13',
+570 silly addNameRange     '1.0.0' ] ]
+571 silly addNamed vinyl-fs@0.1.4
+572 verbose addNamed "0.1.4" is a plain semver version for vinyl-fs
+573 silly cache afterAdd text-table@0.2.0
+574 verbose afterAdd /Users/johnlight/.npm/text-table/0.2.0/package/package.json not in flight; writing
+575 verbose afterAdd /Users/johnlight/.npm/text-table/0.2.0/package/package.json written
+576 silly cache afterAdd vinyl-fs@0.1.4
+577 verbose afterAdd /Users/johnlight/.npm/vinyl-fs/0.1.4/package/package.json not in flight; writing
+578 verbose afterAdd /Users/johnlight/.npm/vinyl-fs/0.1.4/package/package.json written
+579 verbose about to build /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+580 verbose unlock done using /Users/johnlight/.npm/_locks/gulp-yuidoc-4a9d4999d016d77c.lock for /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+581 verbose stack Error: EACCES, mkdir '/Users/johnlight/.npm/through2/0.5.1'
+581 verbose stack     at Error (native)
+582 verbose cwd /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+583 error Darwin 14.5.0
+584 error argv "node" "/usr/local/bin/npm" "install"
+585 error node v0.12.7
+586 error npm  v2.12.1
+587 error path /Users/johnlight/.npm/through2/0.5.1
+588 error code EACCES
+589 error errno -13
+590 error Error: EACCES, mkdir '/Users/johnlight/.npm/through2/0.5.1'
+590 error     at Error (native)
+590 error  { [Error: EACCES, mkdir '/Users/johnlight/.npm/through2/0.5.1']
+590 error   errno: -13,
+590 error   code: 'EACCES',
+590 error   path: '/Users/johnlight/.npm/through2/0.5.1',
+590 error   parent: 'gulp-bump' }
+591 error Please try running this command again as root/Administrator.
+592 verbose exit [ -13, true ]
+593 verbose unbuild node_modules/gulp-bump
+594 info preuninstall gulp-bump@0.3.1
+595 info uninstall gulp-bump@0.3.1
+596 verbose unbuild rmStuff gulp-bump@0.3.1 from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules
+597 info postuninstall gulp-bump@0.3.1
+598 silly gentlyRm /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump is being purged from base /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+599 verbose gentlyRm don't care about contents; nuking /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+600 silly vacuum-fs purging /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-bump
+601 silly vacuum-fs quitting because other entries in /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules
+602 verbose unbuild node_modules/gulp-yuidoc
+603 info preuninstall gulp-yuidoc@0.1.2
+604 info uninstall gulp-yuidoc@0.1.2
+605 verbose unbuild rmStuff gulp-yuidoc@0.1.2 from /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules
+606 info postuninstall gulp-yuidoc@0.1.2
+607 silly gentlyRm /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc is being purged from base /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App
+608 verbose gentlyRm don't care about contents; nuking /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+609 silly vacuum-fs purging /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules/gulp-yuidoc
+610 silly vacuum-fs quitting because other entries in /Users/johnlight/Documents/dev/Pasotaku-Aurelia-App/node_modules
